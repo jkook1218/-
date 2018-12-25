@@ -78,8 +78,6 @@ ___
 <br/>
 - 실험 결과 표:
 
-![TEST1](/img/TEST1.png)
+![TEST](/img/test_result.png)
 
-![TEST2](/img/TEST2.png)
 
-![TEST3](/img/TEST3.png)
