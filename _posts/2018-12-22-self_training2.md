@@ -28,6 +28,7 @@ ___
 위의 예시에서 공부 = 모델 학습, 정답지 = 데이터의 레이블 이라고 생각하면 셀프 트레이닝의 개념을 이해했다고 생각할 수 있습니다.
 이처럼 레이블이 있는 데이터를 통해 모델을 학습하고, 레이블이 없는 데이터에 레이블을 달아주면서 학습을 계속하는 방식이 바로 셀프 트레이닝 입니다. 셀프 트레이닝의 개념을 이해했으니 보다 구체적인 흐름을 살펴보도록 하겠습니다.
  
+![self-sudo](/img/self_sudo.png)
 고려대학교 강필성 교수님 강의자료 
 (https://github.com/pilsung-kang/Business-Analytics/blob/master/05%20Semi-supervised%20Learning/05_Semi-supervised%20Learning.pdf)
 
