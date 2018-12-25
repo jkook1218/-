@@ -78,8 +78,8 @@ ___
 <br/>
 - 실험 결과 표:
 
-![TEST1](./IMG/TEST1.png)
+![TEST1](jkook1218.github.io/IMG/TEST1.png)
 
-![TEST2](./IMG/TEST2.png)
+![TEST2](jkook1218.github.io/IMG/TEST2.png)
 
-![TEST3](./IMG/TEST3.png)
+![TEST3](jkook1218.github.io/IMG/TEST3.png)
