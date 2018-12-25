@@ -17,7 +17,7 @@ categories: DEEP LEARNING
 머신러닝에서는 일반적으로 지도학습(supervised learning)과 비지도학습(supervised learning)이 널리 알려져 있습니다.
 지도학습(supervised learning)은 데이터의 정답이라고 할 수 있는 레이블(label)이 있는 데이터를 이용해 모델을 학습시키는 것을 의미하고, 비지도학습(usupervised learning)은 레이블이 없는 데이터를 활용하는 모델을 학습시키는 것을 의미합니다. 
 이때 우리가 레이블이 있는 데이터와 없는 데이터 모두를 가지고 있다면 어떻게 데이터를 낭비하지않고 모두 활용 할 수 있을까요? 
-그 방법 중 하나가 **준지도학습(semi-supervised learning)**입니다. 준지도학습은 레이블이 있는 데이터와 레이블이 없는 데이터 모두를 활용해서 모델을 생성해냅니다. 이번 포스팅에서는 준지도학습 중 가장 간단한 모델인 **셀프 트레이닝(Self Training)**에 대해 다뤄보도록 하겠습니다.
+그 방법 중 하나가 **준지도학습(semi-supervised learning)**입니다. 준지도학습은 레이블이 있는 데이터와 레이블이 없는 데이터 모두를 활용해서 모델을 생성해냅니다.<br/> 이번 포스팅에서는 준지도학습 중 가장 간단한 모델인 **셀프 트레이닝(Self Training)**에 대해 다뤄보도록 하겠습니다.
 <br/><br/><br/>
 
 
@@ -43,7 +43,7 @@ categories: DEEP LEARNING
  
  
 ![self-sudo](/img/self_sudo.png)
-출처: 고려대학교 강필성 교수님 강의자료<br/>https://github.com/pilsung-kang/Business-Analytics/blob/master/05%20Semi-supervised%20Learning/05_Semi-supervised%20Learning.pdf
+출처: [고려대학교 강필성 교수님 강의자료](http://github.com/pilsung-kang/Business-Analytics/blob/master/05%20Semi-supervised%20Learning/05_Semi-supervised%20Learning.pdf)
 <br/><br/>
 위 사진에서 Xl 은 레이블이 있는 레이블을 제외한 데이터 그리고 yl은 그 데이터의 레이블 입니다. 
 Xu는 레이블이 없는 레이블을 제외한 데이터 입니다.<br/>**우선, 어떤 모델이 높은 정확도로 예측한 값은 맞았다고 해주자는 가정을 해야 합니다.**<br/>그래야 우리가 레이블이 없는 데이터에 레이블을 달아주는 행위에 정당성이 생기기 때문입니다.
